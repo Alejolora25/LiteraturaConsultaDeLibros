@@ -93,16 +93,11 @@ public class MenuService {
     }
 
     private void buscarLibroPorTitulo() {
-        System.out.print("\nIngrese el título del libro: ");
-        String titulo = scanner.nextLine();
+        System.out.print("\nIngrese una palabra clave del título del libro (por ejemplo, 'Quijote' para 'Don Quijote'): ");
+        String titulo = scanner.nextLine().trim();
 
-        // Normalización adicional para entrada de usuario
-        String tituloBusqueda = titulo.trim()
-                .replaceAll("\\s+", " ") // Elimina espacios múltiples
-                .toLowerCase();
-
-        System.out.println("Buscando libros con título: " + titulo);
-        String resultado = gutendexService.buscarYGuardarLibroPorTitulo(tituloBusqueda);
+        System.out.println("Buscando libros con título que contenga: " + titulo);
+        String resultado = gutendexService.buscarYGuardarLibroPorTitulo(titulo);
         System.out.println(resultado);
     }
 

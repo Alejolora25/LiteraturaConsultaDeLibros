@@ -31,7 +31,7 @@ public class GutendexService {
         // Normalizar título: eliminar espacios extras y caracteres especiales
         String tituloNormalizado = titulo.trim()
                 .replaceAll("[^a-zA-Z0-9\\s]", "") // Elimina signos de puntuación
-                .replaceAll("\\s+", " ")            // Reduce espacios múltiples
+                .replaceAll("\\s+", " ")          // Reduce espacios múltiples
                 .toLowerCase();
 
         String url = UriComponentsBuilder.fromHttpUrl(API_URL)
@@ -42,10 +42,9 @@ public class GutendexService {
             GutendexResponse response = restTemplate.getForObject(url, GutendexResponse.class);
 
             if (response == null || response.getResults() == null || response.getResults().isEmpty()) {
-                return "No se encontraron libros con ese título.";
+                return "No se encontraron libros con esa palabra clave.";
             }
 
-            // Buscar coincidencia exacta insensible a mayúsculas
             Optional<BookDTO> libroExacto = response.getResults().stream()
                     .filter(book -> book.getTitle().toLowerCase().contains(tituloNormalizado))
                     .findFirst();
