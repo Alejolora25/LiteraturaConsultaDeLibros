@@ -222,3 +222,53 @@ Distribución por rangos de descargas:
 
 **Alejandro Lora**  
 Proyecto desarrollado como parte del reto de Alura Latam.
+
+## 💻 Imagenes de uso
+
+- Menu principal
+
+![image](https://github.com/user-attachments/assets/f2bade63-d87d-4d87-90f9-7dabd687643c)
+
+1. Buscar libro por título
+
+![image](https://github.com/user-attachments/assets/285a3f09-5c90-4b16-b05d-c32cfb0ad7eb)
+
+2. Listar libros registrados
+
+![image](https://github.com/user-attachments/assets/d7777b1c-eb12-44bb-8d2e-742d7c7bc274)
+
+3. Buscar autores por nombre
+
+![image](https://github.com/user-attachments/assets/5c25ddb4-2f31-4dd6-9541-389e64065a15)
+
+4. Listar autores registrados
+
+![image](https://github.com/user-attachments/assets/09921784-4e44-4021-8929-dfc8be784d27)
+
+5. Listar libros por idioma - Opcion 1
+   
+![image](https://github.com/user-attachments/assets/ecc278b8-f2f4-41f5-ad68-6642827a09da)
+
+5. Listar libros por idioma  - Opcion 2
+
+![image](https://github.com/user-attachments/assets/56ea1998-0fa3-4b40-9927-1df9779a87e3)
+
+6. Top 10 libros más descargados
+
+![image](https://github.com/user-attachments/assets/65c78904-ac41-4eb2-b7cd-91ed42c136e7)
+
+7. Buscar autores vivos en año específico
+
+![image](https://github.com/user-attachments/assets/989b04c0-1c30-4166-a0f0-6bb396ce4c0f)
+
+8. Estadísticas de descargas
+
+![image](https://github.com/user-attachments/assets/97415630-b169-4434-98a5-f821b7a6b0dd)
+
+9. Buscar autores por rango de nacimiento
+
+![image](https://github.com/user-attachments/assets/8260145c-58f8-4bb9-93fc-1cfefeb8660c)
+
+10. Salir
+
+![image](https://github.com/user-attachments/assets/ec41b0fc-5904-40a9-b80a-26f9281ee179)
